@@ -23,8 +23,8 @@ public class Day01 {
         Map<Integer, List<Integer>> calories = readInput(filePath);
         List<Integer> caloriesSums = new ArrayList<>();
 
-        for (Map.Entry<Integer, List<Integer>> elfe : calories.entrySet()) {
-            int sum = elfe.getValue().stream().mapToInt(x -> x).sum();
+        for (Map.Entry<Integer, List<Integer>> elf : calories.entrySet()) {
+            int sum = elf.getValue().stream().mapToInt(x -> x).sum();
             caloriesSums.add(sum);
         }
 
