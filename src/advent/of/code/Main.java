@@ -2,6 +2,7 @@ package advent.of.code;
 
 import advent.of.code.day01.Day01;
 import advent.of.code.day02.Day02;
+import advent.of.code.day03.Day03;
 
 import java.io.IOException;
 
@@ -9,7 +10,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 //        day01();
-        day02();
+//        day02();
+        day03();
+    }
+
+
+    private static void day03() throws IOException {
+        Day03 day03 = new Day03();
+        day03.firstPart("day03test.txt");
+        day03.firstPart("day03input.txt");
+        day03.secondPart("day03test.txt");
+        day03.secondPart("day03input.txt");
     }
 
     private static void day02() throws IOException {
@@ -21,12 +32,11 @@ public class Main {
     }
 
 
-//    private static void day01() throws IOException {
-//        Day01 day01 = new Day01();
-//        day01.firstPart("day01test.txt");
-//        day01.firstPart("day01input.txt");
-//        day01.secondPart("day01test.txt");
-//        day01.secondPart("day01input.txt");
-//    }
-
+    private static void day01() throws IOException {
+        Day01 day01 = new Day01();
+        day01.firstPart("day01test.txt");
+        day01.firstPart("day01input.txt");
+        day01.secondPart("day01test.txt");
+        day01.secondPart("day01input.txt");
+    }
 }
