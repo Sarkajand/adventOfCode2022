@@ -37,7 +37,7 @@ public class Day04 {
             String currentLine = reader.readLine();
             while (currentLine != null) {
                 List<Integer> row = new ArrayList<>();
-                Arrays.stream(currentLine.split("[-|,]")).forEach(x -> row.add(Integer.parseInt(x)));
+                Arrays.stream(currentLine.split("[-,]")).forEach(x -> row.add(Integer.parseInt(x)));
                 input.add(row);
                 currentLine = reader.readLine();
             }
