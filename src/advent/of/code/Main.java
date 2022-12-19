@@ -17,6 +17,7 @@ import advent.of.code.day14.Day14;
 import advent.of.code.day15.Day15;
 import advent.of.code.day16.Day16;
 import advent.of.code.day17.Day17;
+import advent.of.code.day18.Day18;
 
 import java.io.IOException;
 
@@ -39,7 +40,16 @@ public class Main {
 //        day14();
 //        day15();
 //        day16();
-        day17();
+//        day17();
+        day18();
+    }
+
+    private static void day18() throws IOException {
+        Day18 day18 = new Day18();
+        day18.firstPart("day18test.txt");
+        day18.firstPart("day18input.txt");
+        day18.secondPart("day18test.txt");
+        day18.secondPart("day18input.txt");
     }
 
     private static void day17() throws IOException {
