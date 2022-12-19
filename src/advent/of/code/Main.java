@@ -11,6 +11,12 @@ import advent.of.code.day08.Day08;
 import advent.of.code.day09.Day09;
 import advent.of.code.day10.Day10;
 import advent.of.code.day11.Day11;
+import advent.of.code.day12.Day12;
+import advent.of.code.day13.Day13;
+import advent.of.code.day14.Day14;
+import advent.of.code.day15.Day15;
+import advent.of.code.day16.Day16;
+import advent.of.code.day17.Day17;
 
 import java.io.IOException;
 
@@ -27,9 +33,62 @@ public class Main {
 //        day08();
 //        day09();
 //        day10();
-        day11();
+//        day11();
+//        day12();
+//        day13();
+//        day14();
+//        day15();
+//        day16();
+        day17();
     }
 
+    private static void day17() throws IOException {
+        Day17 day17 = new Day17();
+        day17.firstPart("day17test.txt");
+        day17.firstPart("day17input.txt");
+        day17.secondPart("day17test.txt");
+        day17.secondPart("day17input.txt");
+    }
+
+    private static void day16() throws IOException {
+        Day16 day16 = new Day16();
+        day16.firstPart("day16test.txt");
+        day16.firstPart("day16input.txt");
+        day16.secondPart("day16test.txt");
+        day16.secondPart("day16input.txt");
+    }
+
+    private static void day15() throws IOException {
+        Day15 day15 = new Day15();
+        day15.firstPart("day15test.txt", 10);
+        day15.firstPart("day15input.txt", 2000000);
+        day15.secondPart("day15test.txt", 20);
+        day15.secondPart("day15input.txt", 4000000);
+    }
+
+    private static void day14() throws IOException {
+        Day14 day14 = new Day14();
+        day14.firstPart("day14test.txt");
+        day14.firstPart("day14input.txt");
+        day14.secondPart("day14test.txt");
+        day14.secondPart("day14input.txt");
+    }
+
+    private static void day13() throws IOException {
+        Day13 day13 = new Day13();
+        day13.firstPart("day13test.txt");
+        day13.firstPart("day13input.txt");
+        day13.secondPart("day13test.txt");
+        day13.secondPart("day13input.txt");
+    }
+
+    private static void day12() throws IOException {
+        Day12 day12 = new Day12();
+        day12.firstPart("day12test.txt");
+        day12.firstPart("day12input.txt");
+        day12.secondPart("day12test.txt");
+        day12.secondPart("day12input.txt");
+    }
 
     private static void day11() throws IOException {
         Day11 day11 = new Day11();
